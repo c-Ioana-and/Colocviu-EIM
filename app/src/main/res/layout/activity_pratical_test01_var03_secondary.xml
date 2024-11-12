@@ -16,14 +16,13 @@
         android:id="@+id/textView"
         />
 
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText1"
         android:gravity="center"
         android:saveEnabled="false"
         android:enabled="false"
-        android:inputType="number"
         />
 
     <LinearLayout
@@ -37,11 +36,11 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/left_button"
+                android:id="@+id/correct_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/button1" />
+                android:text="@string/correctButton" />
 
         </ScrollView>
 
@@ -51,42 +50,15 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/right_button"
+                android:id="@+id/incorrect_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/button2" />
+                android:text="@string/incorrectButton" />
 
         </ScrollView>
 
     </LinearLayout>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText2"
-        android:gravity="center"
-        android:saveEnabled="false"
-        android:enabled="false"
-        android:inputType="number"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:text="ceva"
-        android:layout_marginStart="8dp"
-        />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="52dp"
-        android:text="Navigate to Secondary Activity"
-        android:id="@+id/navigateToSecondaryActivityButton"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        />
 
 
 </LinearLayout>
